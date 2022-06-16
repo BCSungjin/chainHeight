@@ -1,5 +1,5 @@
 import { StargateClient } from "@cosmjs/stargate"
-const rpc = "127.0.0.1:26657"
+const rpc = "146.190.28.151:26657"
 
 const runAll = async() => {
     const client = await StargateClient.connect(rpc)
